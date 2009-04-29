@@ -1,0 +1,12 @@
+%h3 Add a post
+%p
+  %form{ :method=>'post', :action=>'/writing/update'}
+    Title: 
+    %input{:type =>'text', :name=>'title', :value=>@post.title}
+    %br
+    Body: 
+    %textarea{:name => 'body'}
+      = @post.body
+    %br
+    %input{ :type=>'hidden', :name=>'id', :value=>@post.id }
+    %input{:type=>'Submit', :value=>'Submit' }

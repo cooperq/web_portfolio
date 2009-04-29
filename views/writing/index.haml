@@ -1,0 +1,10 @@
+- @posts.each do |post|
+  %p.post
+    %h3.post-title= post.title
+    .body
+      = post.body.split(' ').slice(0, 49).join(' ')
+      \...
+      %a{ :href => "writing/#{post.id}" } Read More
+    .meta 
+      posted on
+      =post.created_at

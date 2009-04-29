@@ -1,0 +1,29 @@
+!!! XML
+!!!
+%html
+  %head
+    %link{ :href => '/css/reset.css', :type=>'text/css', :rel=>'stylesheet' }
+    %link{ :href => '/css/style.css', :type=>'text/css', :rel=>'stylesheet' }
+    %title= @title || 'Cooper Quintin'
+
+  %body
+    #contact.img
+      %a{:href => '/contact'}
+        %img.contact{:src => '/images/contact_me3.png', :align => 'left' }
+    
+    #wrapper
+      #head
+        %h1 Cooper Quintin
+        %h2 Freelance Hacker, Writer, Amature Philosopher
+        %ul.menu
+          %a{:href => '/'}
+            %li.first Home
+          %a{:href => '/writing'}
+            %li Writing
+          %a{:href => '/portfolio'}
+            %li Portfolio
+          %a{:href => '/projects'}
+            %li Projects
+
+      #content-wrapper
+        =yield

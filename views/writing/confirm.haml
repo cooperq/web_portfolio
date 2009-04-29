@@ -1,0 +1,9 @@
+%h3 Confirm
+%p
+  Are you sure you want to delete
+  = @post.title
+  ?
+  %form{ :method=>'post', :action=>'/writing/delete' }
+    %input{ :type=>'hidden', :name=>'_method', :value=>'delete' }
+    %input{ :type=>'hidden', :name=>'id', :value=>@post.id }
+    %input{ :type=>'submit', :value=>'Kill the fucker.' } 

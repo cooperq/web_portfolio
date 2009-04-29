@@ -1,0 +1,141 @@
+body {
+  color:#fff;
+  font-family:'lucida grande', 'lucida sans unicade', sans-serif;
+  background: url("/images/floral0106.gif");
+  font-size:100%;
+  line-height:1.5;
+  margin:0;
+  padding:0;
+}
+
+#wrapper {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 4em;
+}
+#head h2, .resume a, .resume a:hover {
+  font-style: italic;
+  font-size:100%;
+  font-family:'georgia', 'bitstream vera serif', serif;
+  font-weight: normal;
+  line-height: .3;
+  text-transform: none;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-left: 5px;
+  letter-spacing: 1px;
+  background: none;
+}
+#head h2 {
+}
+a, a:hover {
+  font-size:1.1em;
+  background: #c3c3c3;
+  font-family:"lucida console", "monaco", "andale mono", "bitstream vera sans mono", "consolas", monospace;
+  font-weight:normal;
+  letter-spacing:1px;
+  color: #0c1f33;
+  text-decoration: none;
+}
+#head {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family:'georgia', 'bitstream vera serif', serif;
+  font-size:4em;
+  font-weight:normal;
+  letter-spacing:-3px;
+  line-height:1;
+  margin:0;
+  padding:20px 20px 8px 20px;
+  text-align: center;
+}
+#head ul {
+  font-size:1.1em;
+  font-family:"lucida console", "monaco", "andale mono", "bitstream vera sans mono", "consolas", monospace;
+  font-weight:normal;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  margin:0;
+  padding:0;
+  width: auto;
+  background: #c3c3c3;
+  text-align: center;
+}
+
+#head li {
+  display:inline;
+  list-style-type:none;
+  padding:0;
+  margin: 0;
+  text-align: center;
+}
+
+#head li a, .resume a{
+  color: #000;
+  text-decoration: none;
+}
+
+#head li a:hover, .resume a:hover {
+  color: #0c1f33;
+}
+
+#content-wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 20px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #121212;
+  background: #fff;
+}
+
+.resume {
+  border: 3px solid black;
+  background: #c3c3c3;
+  top: 300px;
+  width: 240px;
+  float: left;
+  margin: 5px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+
+.resume h3, .resume a{
+  text-align: center;
+  color:#000;
+}
+
+.resume h3{
+  padding-left: 5px;
+}
+
+.content {
+  float: top;
+}
+/*
+li.word {
+  list-style-image: url('/images/word_icon.jpg');
+}
+
+li.pdf {
+  list-style-image: url('/images/pdf_icon.jpg');
+}
+
+li.oo {
+  list-style-image: url('/images/openoffice_icon.png');
+}
+
+
+li.html {
+  list-style-image: url('/images/html.png');
+}
+*/
+

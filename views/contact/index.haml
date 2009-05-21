@@ -1,5 +1,20 @@
 %p
-  %form
-    Name:
-    Email:
-    Message:
+  %form#contact{:action=>'/contact/send', :method=>'post'} 
+    %table{:valign=>'top'}
+      %tr
+        %td
+          Name:
+        %td
+          %input#name{:name=>'name', :type=>'text'}
+      %tr
+        %td
+          Email:
+        %td
+          %input#email{:name=>'email', :type=>'text'}
+      %tr
+        %td
+          Message:
+        %td
+          %textarea#message{:name=>'message', :rows=>15, :cols=>75}
+    %input#email{:type=>'submit', :value=>'send mail!'}
+

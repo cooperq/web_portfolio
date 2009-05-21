@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'datamapper'
+require 'haml'
 require 'models/lib'
 
 ##############

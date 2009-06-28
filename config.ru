@@ -1,11 +1,1 @@
-require 'rubygems'
-require 'sinatra'
-
-Sinatra::Application.default_options.merge!(
-  :run => false,
-  :env => 'production'
-)
-
-require 'main'
-run Sinatra.application
-
+config/config.ru

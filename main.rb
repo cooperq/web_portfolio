@@ -3,6 +3,8 @@ require 'sinatra'
 require 'datamapper'
 require 'haml'
 require 'models/lib'
+require 'net/smtp'
+require 'mailfactory'
 
 ##############
 # Home Page

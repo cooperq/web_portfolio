@@ -4,7 +4,7 @@
   %head
     %link{ :href => '/css/reset.css', :type=>'text/css', :rel=>'stylesheet' }
     %link{ :href => '/css/style.css', :type=>'text/css', :rel=>'stylesheet' }
-    %title= @title || 'Cooper Quintin'
+    %title= @title ||= 'Cooper Quintin'
 
   %body
     #contact.img
@@ -26,4 +26,6 @@
             %li Projects
 
       #content-wrapper
+        #flash
+          =@message
         =yield

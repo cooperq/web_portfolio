@@ -4,7 +4,9 @@
   %head
     %link{ :href => '/css/reset.css', :type=>'text/css', :rel=>'stylesheet' }
     %link{ :href => '/css/style.css', :type=>'text/css', :rel=>'stylesheet' }
-    %script{ :src => '/scripts/png.js', :type=>'text/javascript' }
+    /[if IE]
+      %link{ :href => '/css/ie.css', :type=>'text/css', :rel=>'stylesheet' }
+      %script{ :src => '/scripts/png.js', :type=>'text/javascript' }
     %title= @title ||= 'Cooper Quintin'
 
   %body
@@ -30,3 +32,6 @@
         #flash
           =@message
         =yield
+        /[if IE]
+          %a{:href => 'http://www.mozilla.com/en-US/firefox/', :target => '_blank'} 
+            %h1.firefox Get Firefox!

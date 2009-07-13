@@ -1,0 +1,47 @@
+.resume h3, .resume a{
+  text-align: center;
+  color:#000;
+  line-height: 1.5em;
+}
+
+h1.firefox{
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+a, a:hover {
+  font-size:1.1em;
+  background: #c3c3c3;
+  font-family:"lucida console", "monaco", "andale mono", "bitstream vera sans mono", "consolas", monospace;
+  font-weight:normal;
+  letter-spacing:1px;
+  color: #0c1f33;
+  text-decoration: none;
+}
+.resume h3, .resume a, .resume a:hover {
+  font-style: italic;
+  font-family:'georgia', 'bitstream vera serif', serif;
+  text-transform: none;
+  padding-bottom: 10px;
+  text-align: center;
+  background: none;
+  height: 1.1em;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  line-height: 1.5;
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+
+.resume {
+  padding-left: 10px;
+}
+
+.contact {
+  z-index: -1;
+  float: left;
+  width: 1px;
+  overflow: auto;
+}

@@ -27,8 +27,6 @@ body {
   letter-spacing: 1px;
   background: none;
 }
-#head h2 {
-}
 a, a:hover {
   font-size:1.1em;
   background: #c3c3c3;
@@ -72,6 +70,7 @@ h1 {
   list-style-type:none;
   padding:0;
   margin: 0;
+  height: 100%;
   text-align: center;
 }
 
@@ -113,29 +112,8 @@ h1 {
   color:#000;
 }
 
-.resume h3{
-  padding-left: 5px;
-}
 
 .content {
   float: top;
 }
-/*
-li.word {
-  list-style-image: url('/images/word_icon.jpg');
-}
-
-li.pdf {
-  list-style-image: url('/images/pdf_icon.jpg');
-}
-
-li.oo {
-  list-style-image: url('/images/openoffice_icon.png');
-}
-
-
-li.html {
-  list-style-image: url('/images/html.png');
-}
-*/
 

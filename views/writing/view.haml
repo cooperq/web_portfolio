@@ -1,8 +1,8 @@
 %p.post
-  %h3.post-title= @post.title
+  %h3.post-title= @post.title.gsub(/\n/, '<br />')
   .byline 
     by Cooper Quintin
-  .body= @post.body
+  .body= @post.body.gsub(/\n/, '<br />') 
   %br
   .meta 
     posted on

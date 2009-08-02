@@ -2,7 +2,7 @@
   %p.post
     %h3.title= project.name
     .body
-      = project.about
+      = project.about.gsub(/\n/, '<br />')
       %br
       - if !project.link.empty?
         %a{ :href => project.link }

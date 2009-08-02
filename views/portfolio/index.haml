@@ -3,4 +3,4 @@
     %a{ :href => site.link }
       %h3.title= site.name
     .body
-      = site.description
+      = site.description.gsub(/\n/, '<br />')

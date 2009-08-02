@@ -1,0 +1,15 @@
+%h3 Edit
+%p
+  %form{ :method=>'post', :action=>'/portfolio/update'}
+    Title: 
+    %input{:type =>'text', :name=>'name', :value=>@site.name}
+    %br
+    Link: 
+    %input{:type =>'text', :name=>'link', :value=>@site.link}
+    %br
+    Description
+    %textarea{:name => 'description'}
+      = @site.description
+    %br
+    %input{ :type=>'hidden', :name=>'id', :value=>@site.id }
+    %input{:type=>'Submit', :value=>'Submit' }

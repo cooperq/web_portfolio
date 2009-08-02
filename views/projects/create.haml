@@ -1,0 +1,16 @@
+%h3 Add a site
+%p
+  %form{ :method=>'post', :action=>'/projects/create'}
+    Name: 
+    %input{:type =>'text', :name=>'name'}
+    %br
+    Link:
+    %input{:type =>'text', :name=>'link'}
+    %br
+    Link Title:
+    %input{:type =>'text', :name=>'link_title', :value=>'View Source...'}
+    %br
+    About: 
+    %textarea{:name => 'about'}
+    %br
+    %input{:type=>'Submit', :value=>'Submit' }

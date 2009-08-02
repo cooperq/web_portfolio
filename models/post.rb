@@ -6,4 +6,4 @@ class Post
   property :created_at, DateTime
 end
 
-Post.auto_migrate! 
+Post.auto_upgrade! 

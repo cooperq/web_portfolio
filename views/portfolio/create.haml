@@ -1,0 +1,13 @@
+%h3 Add a site
+%p
+  %form{ :method=>'post', :action=>'/portfolio/create'}
+    Name: 
+    %input{:type =>'text', :name=>'name'}
+    %br
+    Link:
+    %input{:type =>'text', :name=>'link'}
+    %br
+    Description: 
+    %textarea{:name => 'description'}
+    %br
+    %input{:type=>'Submit', :value=>'Submit' }

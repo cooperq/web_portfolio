@@ -1,3 +1,6 @@
-%p
-  Coming Soon to a theater near you!
-
+- @sites.each do |site|
+  %p.post
+    %a{ :href => site.link }
+      %h3.title= site.name
+    .body
+      = site.description

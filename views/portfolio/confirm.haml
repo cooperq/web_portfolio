@@ -1,0 +1,9 @@
+%h3 Confirm
+%p
+  Are you sure you want to delete
+  = @site.name
+  ?
+  %form{ :method=>'post', :action=>'/portfolio/delete' }
+    %input{ :type=>'hidden', :name=>'_method', :value=>'delete' }
+    %input{ :type=>'hidden', :name=>'id', :value=>@site.id }
+    %input{ :type=>'submit', :value=>'Kill the fucker.' } 

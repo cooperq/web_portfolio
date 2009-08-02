@@ -1,3 +1,10 @@
-%p
-  Coming Soon to a theater near you!
-
+- @projects.each do |project|
+  %p.post
+    %h3.title= project.name
+    .body
+      = project.about
+      %br
+      - if project.link
+        %a{ :href => project.link }
+          =project.link_title
+    

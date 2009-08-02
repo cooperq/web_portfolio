@@ -4,6 +4,7 @@ class Project
   property :name, String
   property :about, Text
   property :link, String
+  property :link_title, String
   property :created_at, DateTime
 end
-Project.auto_migrate!
+Project.auto_upgrade!

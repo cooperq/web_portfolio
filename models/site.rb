@@ -7,4 +7,4 @@ class Site
   property :created_at, DateTime
 end
 
-Site.auto_migrate!
+Site.auto_upgrade!

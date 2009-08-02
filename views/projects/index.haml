@@ -4,7 +4,7 @@
     .body
       = project.about
       %br
-      - if project.link
+      - if !project.link.empty?
         %a{ :href => project.link }
           =project.link_title
     
